@@ -70,9 +70,9 @@
 		091CBE602A6E23020004200C /* InstagramApp */ = {
 			isa = PBXGroup;
 			children = (
+				091CBE762A6E23610004200C /* Application */,
 				091CBE772A6E244B0004200C /* Feed */,
 				091CBE7D2A6E2FF40004200C /* Views */,
-				091CBE762A6E23610004200C /* Application */,
 				091CBE752A6E231B0004200C /* Resourses */,
 			);
 			path = InstagramApp;
@@ -351,6 +351,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = InstagramApp/Resourses/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -378,6 +379,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = InstagramApp/Resourses/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

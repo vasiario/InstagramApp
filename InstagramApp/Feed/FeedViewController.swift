@@ -36,7 +36,11 @@ private var items: [FeedItemType] = [
                             isAddButtonVisible: false, isNewStrory: false),
     FeedStoriesItemCellInfo(image: UIImage(named: "monkey")!, username: "Sergey",
                             isAddButtonVisible: false, isNewStrory: false)
-  ])
+  ]),
+  .post(FeedPostItemInfo(userImage: UIImage(named: "monkey")!, username: "Monkey777", postSubtitle: "Khao Kheo", postImage: UIImage(named: "monkey")!, numberOfLikes: 112, comment: CommentShortInfo(username: "Dog", commentText: "I love monkeys! :D"))),
+  .post(FeedPostItemInfo(userImage: UIImage(named: "monkey")!, username: "Monkey777", postSubtitle: "Khao Kheo", postImage: UIImage(named: "monkey")!, numberOfLikes: 112, comment: CommentShortInfo(username: "Dog", commentText: "I love monkeys! :D"))),
+  .post(FeedPostItemInfo(userImage: UIImage(named: "monkey")!, username: "Monkey777", postSubtitle: "Khao Kheo", postImage: UIImage(named: "monkey")!, numberOfLikes: 112, comment: CommentShortInfo(username: "Dog", commentText: "I love monkeys! :D"))),
+  .post(FeedPostItemInfo(userImage: UIImage(named: "monkey")!, username: "Monkey777", postSubtitle: "Khao Kheo", postImage: UIImage(named: "monkey")!, numberOfLikes: 112, comment: CommentShortInfo(username: "Dog", commentText: "I love monkeys! :D")))
 ]
 
 //MARK: - Private methods
